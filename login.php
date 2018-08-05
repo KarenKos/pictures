@@ -20,31 +20,15 @@
     <a href="index.php">Papier</a>
     <a href="index.php">Drewno</a>
     </div>
-    <div class="login"><a href="login.php"><button class="btn btn-dark">Zaloguj</button></a></div>
+    <div class="login"><button class="btn btn-dark">Zaloguj</button></div>
     </nav>
-<section id="posts">
-<div class="picture">
-<img src="img/background.png" alt="" class="pic">
-<h3>Category</h3>
-<h6>Lorem Ipsum dolores mates sonio del grande</h6>
-</div>
-<div class="picture">
-<img src="img/background.png" alt="" class="pic">
-<h3>Category</h3>
-<h6>Lorem Ipsum dolores mates sonio del grande</h6>
-</div>
-<div class="picture">
-<img src="img/background.png" alt="" class="pic">
-<h3>Category</h3>
-<h6>Lorem Ipsum dolores mates sonio del grande</h6>
-</div>
-<div class="picture">
-<img src="img/background.png" alt="" class="pic">
-<h3>Category</h3>
-<h6>Lorem Ipsum dolores mates sonio del grande</h6>
-</div>
-</section>
-
+    <section id="login">
+<form action="">
+    <input type="text">
+    <input type="password">
+    <button class="btn btn-dark">Zaloguj się</button>
+</form>
+    </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
