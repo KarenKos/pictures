@@ -22,13 +22,16 @@
     </div>
     <div class="login"><button class="btn btn-dark">Zaloguj</button></div>
     </nav>
+    <div class="log">
     <section id="login">
+        <h2>Admin panel</h2>
 <form action="">
-    <input type="text">
-    <input type="password">
+    <input type="text" placeholder="Login" class="input">
+    <input type="password" placeholder="Hasło" class="input">
     <button class="btn btn-dark">Zaloguj się</button>
 </form>
     </section>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -10,6 +10,7 @@ body {
     background-image: url(img/background.png);
     margin: 0;
     padding: 0;
+    height: 100%;
 
 }
 
@@ -64,20 +65,44 @@ nav {
 
 
 /*******LOGIN********/
+.log {
+ /*   height: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: center;*/
+    margin-top: 100px;
+}
 
 #login {
     display: flex;
-    width: 400px;
-    height: 500px;
+    width: 250px;
+    height: 320px;
     margin: auto;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    border: 2px solid #444444;
-    border-radius: 20%;
+    border: 2px solid #888888;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.15);
+    color: white;
 }
 
-#login > input {
-    width: 350px;
-    margin: auto;
+ .input {
+    width: 200px;
+    height: 40px;
+    margin: 10px auto;
+    background-image: url(img/background.png);
+    border: 2px solid #888888;
+    border-radius: 10px;
+    padding: 1px 5px;
+
+
+}
+.input:first-child{
+    margin-top: 20px;
+}
+.input:last-child {
+    margin-bottom: 20px;
 }
